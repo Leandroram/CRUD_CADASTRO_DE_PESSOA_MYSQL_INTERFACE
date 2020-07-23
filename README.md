@@ -1,5 +1,5 @@
 # CRUD_CADASTRO_DE_PESSOA_MYSQL_INTERFACE
-Sistema de cadastro Simples com interface gráfica, onde contempla: Cadastrar, Editar, Excluír e Listar.
+Sistema de cadastro Simples com interface gráfica, onde contempla: Cadastrar, Editar, Excluír , Listar e Buscar.
 
 
 ![1](https://user-images.githubusercontent.com/68626959/88314982-15e68b00-ccec-11ea-99f4-4ccc00916919.jpg)
@@ -12,17 +12,17 @@ Sistema de cadastro Simples com interface gráfica, onde contempla: Cadastrar, E
 
 Codigo MYSQL:
 
-CREATE TABLE clientes ( 
-id int(11) NOT NULL AUTO_INCREMENT, 
-nome varchar(100) NOT NULL, 
-email varchar(100) NOT NULL, 
-sexo varchar(10) NOT NULL, 
-telefone varchar(30) NOT NULL, 
-PRIMARY KEY(id) ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-INSERT INTO clientes (id, nome, email, sexo, telefone) VALUES 
-(1, 'Teste', 'email', 'Masculino', 'telefone'), 
-(2, 'pedro', 'pedro@pedro.com', 'Masculino', '123654789'), 
-(3, 'nome', 'email', 'sexo', 'telefone'), 
-(4, 'nome', 'email', 'Masculino', 'telefone'), 
+CREATE TABLE clientes ( <br>
+id int(11) NOT NULL AUTO_INCREMENT, <br>
+nome varchar(100) NOT NULL, <br>
+email varchar(100) NOT NULL, <br>
+sexo varchar(10) NOT NULL, <br>
+telefone varchar(30) NOT NULL, <br>
+PRIMARY KEY(id) ) ENGINE=InnoDB DEFAULT CHARSET=latin1; 
+<br><br>
+INSERT INTO clientes (id, nome, email, sexo, telefone) VALUES <br>
+(1, 'Teste', 'email', 'Masculino', 'telefone'), <br>
+(2, 'pedro', 'pedro@pedro.com', 'Masculino', '123654789'), <br>
+(3, 'nome', 'email', 'sexo', 'telefone'), <br>
+(4, 'nome', 'email', 'Masculino', 'telefone'), <br>
 (5, 'nome', 'email', 'Feminino', 'telefone');
